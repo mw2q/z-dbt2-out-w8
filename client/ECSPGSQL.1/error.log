@@ -1,0 +1,252 @@
+Sat May  2 22:14:21 2015
+tid:-141821680 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 41598 waits for ShareLock on transaction 6123412; blocked by process 41557.
+Process 41557 waits for ShareLock on transaction 6123433; blocked by process 41598.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (54839,56) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Sat May  2 22:16:51 2015
+tid:-138938096 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-157026032 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-152307440 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-149161712 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-151127792 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-153487088 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-156501744 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-136185584 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-152700656 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-62699248 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-63485680 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-157157104 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-149948144 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-143656688 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-63092464 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-146802416 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-144049904 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-64272112 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-150734576 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-64665328 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-145229552 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-138151664 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-155059952 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-140117744 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-140510960 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-147195632 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-156763888 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-144443120 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-155846384 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-135792368 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-144836336 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-142083824 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-65058544 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-156632816 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-143263472 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-147588848 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-146409200 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-138544880 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-136972016 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-66631408 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-141297392 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-155453168 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-134219504 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-65451760 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-156370672 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-135005936 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-142870256 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-140904176 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-149554928 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-62306032 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-148375280 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-63878896 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-154666736 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-156239600 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-146015984 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-148768496 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-142477040 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-65844976 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-154273520 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-135399152 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-134612720 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-156894960 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-47679216 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-151914224 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-141690608 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-136578800 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-139331312 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-157550320 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-153093872 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-137758448 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-145622768 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-157288176 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-139724528 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-66238192 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-137365232 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-147982064 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-151521008 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-157419248 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-150341360 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Sat May  2 22:16:51 2015
+tid:-153880304 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
